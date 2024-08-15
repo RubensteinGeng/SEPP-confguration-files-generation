@@ -1,4 +1,4 @@
-##**Overview of the 'files_generation.ipynb'**:\
+# **Overview of the 'files_generation.ipynb'**:\
 The files_generation.ipynb notebook is designed to generate the necessary configuration files for detection and measurement in SourceXtractor++ (SE++). Additionally, this notebook performs the following operations:
 
 **Image Filtering**: Applies the specified filter to the image.
