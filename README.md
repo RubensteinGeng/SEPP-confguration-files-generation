@@ -1,15 +1,20 @@
 ## **Overview of the 'files_generation.ipynb'**:
 The files_generation.ipynb notebook is designed to generate the necessary configuration files for detection and measurement in SourceXtractor++ (SE++). Additionally, this notebook performs the following operations:
 
-**Image Filtering**: Applies the specified filter to the image.
-**PSF Convolution**: Convolves the image with the specified Point Spread Function (PSF).
+**Image Filtering**: Applies the specified filter to the image.\
+
+**PSF Convolution**: Convolves the image with the specified Point Spread Function (PSF).\
+
 **Noise Addition**: Adds noise to the image based on the noise level specified in the notebook.
 All processed images and generated configuration files are saved to their corresponding file paths as defined in the notebook.
 
 ## **Parameters Adjustment**:
 **Input Parameters**: Located below the function definitions in the notebook, these parameters are specifically tailored for our SKIRT simulations.\
+
 **Configuration Parameters**: These parameters are used within the detection configuration files and are the primary settings you might need to adjust.\
+
 **Noise Level (std)**: Defines the noise level, which is in the same units as the image itself. For JWST NIRCam detections, the noise is measured in MJy/sr.\
+
 **Note**: The provided PSF, filter, and template files are configured for private use. Users can replace these with their own files as needed.
 
 ## **How to Use the Notebook**
